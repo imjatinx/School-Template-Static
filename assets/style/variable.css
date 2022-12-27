@@ -1,0 +1,25 @@
+:root {
+    /* --color_primary_d: #123c5f; */
+    --color_primary_d: #14648b;
+    --color_secondary_d: #12314a;
+    
+    --color_primary_l: #ececec;
+    
+    --color-t-l: #ffffff;
+    --color-t-d: #121212;
+
+    --color-link:#ff4444;
+}
+
+/* .color1 {color: #120b15;}
+.color2 {color: #12314a;}
+.color3 {color: #14648b;}
+.color4 {color: #1fa0d5;}
+.color5 {color: #20dad8;} */
+.color
+{
+color: #AB46D2;
+color: #FF6FB5;
+color: #55D8C1;
+color: #FCF69C;
+}

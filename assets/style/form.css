@@ -1,0 +1,91 @@
+
+.resetPassModal {
+    /* display: none; */
+    visibility: hidden;
+    transition: 0.6s;
+    opacity: 0;
+    position: fixed;
+    z-index: 99;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000000c7;
+
+}
+
+.resetPassModal-content {
+    background-color: #fefefe;
+    min-width: fit-content;
+    margin: 0 auto;
+    width: 450px;
+    max-width: 90%;
+    border-radius: 4px;
+}
+
+@media only screen and (min-width: 901px) {
+    .resetPassModal-content {
+        min-width: 450px;
+    }
+}
+
+.reset-modal-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 8px;
+    font-size: 19px;
+    color: #2c2c2c;
+    font-weight: 400;
+}
+
+.close-btn {
+    cursor: pointer;
+    font-weight: 100;
+    color: #535353;
+    font-size: 20px;
+}
+
+.reset-modal-content {
+    padding: 0px 10px 10px 10px;
+}
+
+.user-form {
+margin-top: 13px;
+}
+
+.user-form form input,
+.user-form form textarea {
+padding: 11px 15px;
+outline: none;
+border: 1px solid #c4c4c4;
+border-radius: 4px;
+margin-top: 12px;
+font-size: 16px;
+width: 100%;
+}
+.user-form form textarea {
+resize: vertical;
+
+}
+.user-form form input:focus,
+.user-form form textarea:focus {
+border-color: #0871eb;
+}
+.form-error {
+text-align: left;
+padding: 0px 15px;
+color: #e64d27;
+}
+.user-form button {
+padding: 11px 15px;
+border-radius: 4px;
+margin-top: 12px;
+font-size: 16px;
+width: 100%;
+color: #fff;
+background-color: #0871eb;
+}
+

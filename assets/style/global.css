@@ -1,0 +1,67 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+    user-zoom: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    scroll-behavior: smooth;
+
+}
+
+button {
+    margin: 0;
+    padding: 3px 5px;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+    font-size: inherit;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 915px) {
+    .not-in-pc {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 914px) {
+    .not-in-mob {
+        display: none !important;
+    }
+}
+
+.goToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 99;
+    font-size: 22px;
+    background-color: var(--color_primary_d);
+    color: white;
+    height: 28px;
+    width: 28px;
+    opacity: 0.8;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.goToTopBtn:hover {
+    opacity: 1;
+}
